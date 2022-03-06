@@ -3,17 +3,19 @@
 
 <html>
     <body>
+    
         <h1><b>Ako sa mi môj<br/>máš?</b></h1>
         <p>Dobre</p>
         <h2><i>A ty?</i></h2>
         <h3><b>V pohode.</b></h3>
         
     <style>
-        body {background-color: hotpink;}
-        h1 {color: ivory;   font-size: 100px;   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif+;}
-        p {color: lightgray;}
-        h2 {color: lightyellow;}
-        h3 {color: mediumturquoise;}
+        body {background-color: rgba(100, 100%, 50%, 1);
+        h1 {color: ivory;   font-size: 100px;   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        p {color: rgb(105, 55, 55);
+        h2 {color: rgb(36, 36, 5);
+        h3 {color: mediumturquoise;
+       {}
     </style>
     <p lang = "sk">Odsek v národnom jazyku<br/>slovenčina</p>
 
@@ -78,6 +80,121 @@
 <hr/>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5186.923334438877!2d19.71568603751238!3d49.096380045855085!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47159bad771948e9%3A0x973b649c611328ed!2sObec%20Liptovsk%C3%BD%20Ondrej%20-%20obecn%C3%BD%20%C3%BArad!5e0!3m2!1ssk!2ssk!4v1633068984374!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+<div align="center"><a href="index.html"><img src="resources/uvodny_obraz.jpeg" width="1510" height="910"></a></div>
+
+<div align="center"> 
+    <figure>
+        <img src="resources/Iphone 11.jpg" width="450" height="600" alt="Iphone 11">
+        <figcaption>Na obrázku vidíte Iphone 11</figcaption>
+    </figure>
+</div>
+
+<h1>
+    <img src="resources/giphy.gif" width="400" height="400" alt="code gif"/>
+</h1>
+
+<hr/>
+
+<table>
+    <thead>
+        <tr><th>Dátum</th><th>Príjem</th><th>Výdavky</th><th>Môj príjem</th><th>Tvoj príjem</th></tr>
+    </thead>
+
+    <tbody>
+        <tr><th>8. Január</th><td>300</td><td>50</td><td>25</td><td>15</td></tr>
+        <tr><th>2. Február</th><td>400</td><td>80</td><td>40</td><td>70</td></tr>
+    </tbody>
+
+    <tfoot>
+        <tr><th>Medzisúčet</th><td>700</td><td>130</td><td>20</td><td>50</td></tr>
+    </tfoot>
+</table>
+
+<hr/>
+
+<form action="http://www.example.com/page.php" method="post">
+    <fieldset>
+        <legend>Kontaktné údaje</legend>
+        <label>Meno a Priezvisko: <input type="text" name="kontaktné údaje" size="30" maxlength="5"></label><br/>
+        <label>Emailová adresa: <input type="email" name="emailova adresa" size="30" maxlength="5"></label><br/>
+    </fieldset><br/>
+
+    <fieldset>
+        <legend>Vaše hodnotenie</legend>
+        <h4>
+            <label for="info">Ako ste sa o nás dozvedeli?</label>
+            <select name="respondent" id="info">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+            </select>
+        </h4>
+        <h4>Páči sa Vám design našej stránky? <br/> <br/>
+            <label><input type="radio" name="hodnotenie" value="ano" />Áno</label>
+            <label><input type="radio" name="hodnotenie" value="nie" />Nie</label>
+        </h4>
+
+        <h4>
+            <label for="komentar">Tu napíšte Vaše pripomienky a komentáre:</label> <br/>
+            <textarea rows="4" cols="40" maxlength="100" id="komentar"></textarea>
+        </h4>
+
+        <label><input type="checkbox" name="subscribe" checked="checked" />Prihláste sa na odber emailových noviniek.</label> <br/>
+        <input type="submit" value="Odoslať formulár" />
+    </fieldset>
+    
+    <p class="dolezite">Text vášho odseku</p>
+
+    <div class="uvod">
+        <h2>Toto je nadpis</h2>
+        <p>Toto je vlastný nadpis</p>
+    </div>
+
+    <style>
+        div.uvod {
+            border: 7px outset green;
+            background-color: ivory;
+            text-align: center;
+        }
+    </style>
+     
+</form>
+
+    <h2>
+        Pridáme <span class="ingrediencie">mrkvu</span>
+        <span class="ingrediencie">petržlen</span> a 
+        <span class="ingrediencie">cibuľu</span> a všetko spolu zamiešame.
+    </h2>
+    <style>
+        span.ingrediencie {
+            color: red ;
+        }
+    </style>
+
+    <div align="center"><video src="resources/yt5s.com-1 Minute Timer.mp4" poster="resources/uvodny_obraz.jpeg" width="700" height="600" controls></video></div>
+    
+    <audio controls>
+        <source src="resources/y2meta.com - Hahaha sound effect (128 kbps).mp3">
+    </audio>
+
+    <style>
+        ul + p{
+            color: rgb(46, 3, 238);
+        }
+    </style> 
+
+        <ul>
+            <li>Ja som super</li>
+            <p>Ja som viac super</p>
+                <p>Ja som krásny</p>
+            
+            <li>Ja som najviac super</li>
+        </ul>
+        
+        <p>Ja som viac super</p>
+        <p>Ja som krásny</p>
+    
 
 
     </body>
